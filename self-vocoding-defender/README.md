@@ -1,5 +1,5 @@
-# Self-Vocoding-Defender
+# Watermark embedding
 
-For the comparison between traditional harmful preprocessing (MP3 8kbps, 2000Hz low-pass filtering) and the novel self-vocoding preprocessed audio, please download the "audio samples" directory.
-
-The source code is provided in the "self-vocoding-defender" directory.
+'''
+python embed_and_save.py --wm index\in\results\wmpool.txt -o path\to\clean\wavs -s path\to\save\watermarked\wavs -mp path\to\model\directory -p config/process.yaml -m config/model.yaml -t config/train.yaml
+'''
